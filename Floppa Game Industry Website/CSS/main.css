@@ -29,6 +29,7 @@ h2{
    font-family: Calibri;
    font-size: 39px;
    vertical-align: middle;
+   text-align: center;
    transition: background-color 0.2s;
    user-select: none;
    text-size-adjust: auto;
