@@ -33,19 +33,29 @@ a {
    transition: background-color 0.2s;
    user-select: none;
    text-size-adjust: auto;
-
 }
 
-.flex-container{
+.flex-text-container{
     margin-right: 10%;
     margin-left: 10%;
     background-color: #1c1c1c;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-size-adjust: 80%;
     text-align: center;
     user-select: none;
+    border-radius: 10px;
+    line-height: 2;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.flex-text-container:hover{
+    background-color: rgb(255 255 255 / 3%);
+    transform: scale(1.02);
+
+}
+
+.flex-text{
+    margin: 3%;
 }
 
 .logo-image{
@@ -70,9 +80,14 @@ body {
 .text-format{
     color: #aaa;
     font-family: Calibri;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 br{
     user-select: none;
+}
+
+
+.slide-top {
+            animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1ms infinite ;
 }
