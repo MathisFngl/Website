@@ -60,9 +60,21 @@ a {
     border-radius: 10px;
     line-height: 2;
     transition: background-color 0.3s, transform 0.3s;
+
+.flex-text-container-anim{
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    border-radius: 10px;
+    line-height: 2;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-.flex-text-container:hover{
+.flex-text-container-anim:hover{
     background-color: rgb(255 255 255 / 3%);
     transform: scale(1.02);
 
