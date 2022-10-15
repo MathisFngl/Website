@@ -50,8 +50,8 @@ a {
 }
 
 .flex-text-container{
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
     background-color: #1c1c1c;
     display: flex;
     justify-content: center;
@@ -62,7 +62,6 @@ a {
     transition: background-color 0.3s, transform 0.3s;
     display: flex;
     flex-grow: 1;
-    gap: 3%;
 }
 
 .grow1 { flex-grow: 1; }
@@ -75,7 +74,7 @@ a {
 input{
     width: 95%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px;
     border-radius: 4px;
     box-sizing: border-box;
     background-color: #1c1c1c;
@@ -115,11 +114,15 @@ button:active {
   background-color: rgb(255 255 255 / 9%);
 }
 
+.flex-text-container-anim:hover{
+    background-color: rgb(255 255 255 / 3%);
+    transform: scale(1.02);
+
+}
 textarea {
   width: 95%;
   height: 250px;
   padding: 12px 20px;
-  box-sizing: border-box;
   border-radius: 4px;
   box-sizing: border-box;
   background-color: #1c1c1c;
@@ -132,8 +135,8 @@ textarea {
 }
 
 .flex-text-container-anim{
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
     margin-bottom: 3%;
     background-color: #1c1c1c;
     display: flex;
@@ -143,12 +146,6 @@ textarea {
     border-radius: 10px;
     line-height: 2;
     transition: background-color 0.3s, transform 0.3s;
-}
-
-.flex-text-container-anim:hover{
-    background-color: rgb(255 255 255 / 3%);
-    transform: scale(1.02);
-
 }
 
 .flex-text{
