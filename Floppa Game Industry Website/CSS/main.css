@@ -120,15 +120,15 @@ button:active {
 
 }
 textarea {
-  width: 95%;
-  height: 250px;
-  padding: 12px 20px;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: #1c1c1c;
-  resize: none;
-  border: 2px solid #1c1c1c;
-  color: #aaa;
+    width: 95%;
+    height: 250px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+    resize: none;
+    border: 2px solid #1c1c1c;
+    color: #aaa;
     font-family: Calibri;
     font-size: 20px;
     transition-duration: 0.2s;
@@ -179,9 +179,4 @@ body {
 
 br{
     user-select: none;
-}
-
-
-.slide-top {
-            animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1ms infinite ;
 }
