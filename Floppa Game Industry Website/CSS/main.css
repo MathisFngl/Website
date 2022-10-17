@@ -24,10 +24,10 @@
 h2{
     display: block;
    color: #aaa;
-   padding: 18px 50px;
+   padding: 18px .3px;
    text-decoration: none;
    font-family: Calibri;
-   font-size: 39px;
+   font-size: 3vw;
    vertical-align: middle;
    text-align: center;
    transition: background-color 0.2s;
@@ -38,10 +38,10 @@ h2{
 a {
    display: block;
    color: #aaa;
-   padding: 18px 50px;
+   padding: 1.1vw 2vw;
    text-decoration: none;
    font-family: Calibri;
-   font-size: 18px;
+   font-size: 1vw;
    overflow: hidden;
    vertical-align: middle;
    transition: background-color 0.2s;
@@ -62,6 +62,7 @@ a {
     transition: background-color 0.3s, transform 0.3s;
     display: flex;
     flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .grow1 { flex-grow: 1; }
@@ -146,6 +147,7 @@ textarea {
     border-radius: 10px;
     line-height: 2;
     transition: background-color 0.3s, transform 0.3s;
+    flex-wrap: wrap;
 }
 
 .flex-text{
@@ -174,7 +176,8 @@ body {
 .text-format{
     color: #aaa;
     font-family: Calibri;
-    font-size: 20px;
+    font-size: 1vw;
+
 }
 
 br{
