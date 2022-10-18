@@ -63,6 +63,7 @@ a {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 
 .grow1 { flex-grow: 1; }
@@ -177,7 +178,29 @@ body {
     color: #aaa;
     font-family: Calibri;
     font-size: 1vw;
+}
 
+.bio-text{
+    justify-content:space-evenly;
+    background-color:#262626; 
+    border-radius: 10px; 
+    font-size: 1vw; 
+    position:relative; 
+    font-size: 20px;
+    width : 50vw;
+}
+
+.margin2{
+    margin-top: 2%; 
+    margin-bottom: 2%; 
+    margin-left: 2%; 
+    margin-right: 2%; 
+}
+
+.contact-form{
+    background-color:#262626; 
+    border-radius: 10px; 
+    position:relative
 }
 
 br{
